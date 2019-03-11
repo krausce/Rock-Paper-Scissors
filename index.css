@@ -1,5 +1,5 @@
 body {
-    margin: 500px;
+    margin: 350px 500px;
 }
 
 select {
@@ -9,7 +9,7 @@ select {
 body::after {
     content: "";
     background: url(./RoPaSc_Logo.jpg);
-    opacity: 0.5;
+    opacity: 0.35;
     top: 0;
     left: 0;
     bottom: 0;
@@ -19,10 +19,15 @@ body::after {
 }
 
 select {
-    font-size: 18px;
+    color: rgba(25, 28, 201, 0.856);
+    font-size: 30px;
+    margin-top: 20%;
+    margin-left: 50%;
+    outline-color: crimson;
 }
 
 h1 {
+    color: rgba(7, 188, 194, 0.822);
     font-weight: 900;
     font-size: 300%;
     width: 1000px;
