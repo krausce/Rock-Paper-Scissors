@@ -1,0 +1,30 @@
+body {
+    margin: 500px;
+}
+
+select {
+    margin-left: 250px;
+}
+
+body::after {
+    content: "";
+    background: url(./RoPaSc_Logo.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+
+select {
+    font-size: 18px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 300%;
+    width: 1000px;
+}
+
